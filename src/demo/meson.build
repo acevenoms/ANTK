@@ -1,0 +1,1 @@
+demo_exe = executable('antk_demo', 'main.cpp', include_directories: project_headers, dependencies: core_export_dep)

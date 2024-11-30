@@ -4,6 +4,7 @@
 #include "include/demo.h"
 
 #include <antk/core/application.h>
+#include <antk/core/window.h>
 
 int main(int argc, char *argv[])
 {
@@ -14,5 +15,10 @@ int main(int argc, char *argv[])
         std::cout << "This shouldn't show up";
     }
     std::cout << "Application running...";
+
+    ANTK::Window window("ANTK Demo");
+
+    pause();
+
     return 0;
 }
